@@ -42,7 +42,8 @@ $Wcms->addListener('settings', 'alterAdmin'); // in functions.php
 	?>
 	<title><?=wCMS::get('config','siteTitle')?> - <?=wCMS::page('title')?></title>
 
-	# Random Fandom Code Snippets
+	# Random Fandom Head Code Snippets
+	# Google Ads
 	<script data-ad-client="ca-pub-1651030421202512" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 	</head>
@@ -91,6 +92,11 @@ $Wcms->addListener('settings', 'alterAdmin'); // in functions.php
 
 	<div class="container-fluid footer colorBackground">
 		<div class="whiteFont col-lg-12 text-center">
+
+			# Random Fandom Body Code Snippets
+			# Contact Form
+			<?php echo contact_form(); ?>
+
 			<!-- ?=wCMS::block('subside')? -->
 			<?=wCMS::footer()?>
 			<?=getSiteLinkedInLink()?>
