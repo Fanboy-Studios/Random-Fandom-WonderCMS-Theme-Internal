@@ -44,8 +44,19 @@ $Wcms->addListener('settings', 'alterAdmin'); // in functions.php
 
 	<!-- Random Fandom Head Code Snippets-->
 
-	<!-- Random Fandom Contact Form -->
-	<script data-ad-client="ca-pub-1651030421202512" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Random Fandom Google Ads -->
+	<script data-ad-client="ca-pub-2812825932465377" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Random Fandom Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161484520-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-161484520-1');
+	</script>
 
 	</head>
 

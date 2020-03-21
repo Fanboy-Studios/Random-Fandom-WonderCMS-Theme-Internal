@@ -28,7 +28,7 @@ function alterAdmin($args) {
   $themeLabel = $doc->createElement("p");
   $themeLabel->setAttribute("class", "subTitle");
   $themeLabel->setAttribute("style", "font-weight:bold; font-variant: normal;");
-  $themeLabel->nodeValue = "Random Fandom Dev Theme Options";
+  $themeLabel->nodeValue = "Random Fandom Internal Theme Options";
   $doc->getElementById("general")->appendChild($themeLabel);
 
   # Setup style for id=themeInfoDiv
