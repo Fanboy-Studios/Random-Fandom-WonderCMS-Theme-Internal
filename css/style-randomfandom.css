@@ -91,16 +91,16 @@ a:hover {
   position:relative;
   top:-2px;
 }
+
 /*
- * If you don't like having a menu option shown for the
+ * If you like having a menu option shown for the
  * detault page (since clicking the Title takes you there),
- * then uncomment this CSS with "display: none"
+ * then comment this CSS out.
 */
-/*
 .nav-item.nav-default-page {
   display: none;
 }
-*/
+
 
 .color-selector {
 	padding: 0px 12px;

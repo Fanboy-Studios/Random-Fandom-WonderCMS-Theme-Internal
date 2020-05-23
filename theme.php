@@ -8,7 +8,9 @@ if(version<'0.0.9')
 
 $theme_css = 'css/style-randomfandom.css';
 $Wcms->addListener('menu', 'getMenuRandomfandom'); // in functions.php
-$Wcms->addListener('settings', 'alterAdmin'); // in functions.php
+/* The below line breaks the admin panel after the 3.1.0 WonderCMS update. */
+/* $Wcms->addListener('settings', 'alterAdmin'); // in functions.php */
+
 ?>
 <html lang="en">
 <head>
@@ -46,7 +48,7 @@ $Wcms->addListener('settings', 'alterAdmin'); // in functions.php
 
 	<!-- Random Fandom Google Ads -->
 	<script data-ad-client="ca-pub-2812825932465377" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	
+
 	<!-- Random Fandom Google Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161484520-1"></script>

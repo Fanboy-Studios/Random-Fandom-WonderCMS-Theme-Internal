@@ -11,6 +11,7 @@ function getRandomfandomOpts() {
   return $randomfandomOpts;
 }
 
+/* The following code breaks the admin panel in the WonderCMS 3.1.0 update
 # Our settings hook: $Wcms->addListener('settings', 'alterAdmin');
 # In here we give users an optional interface (versus config.txt)
 # where they can set the Random Fandom theme options.
@@ -113,6 +114,7 @@ function alterAdmin($args) {
   $args[0] = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $doc->saveHTML());
   return $args;
 }
+The previous code breaks the admin panel in the WonderCMS 3.1.0 update */
 
 # Hold the theme conf in a global so that we only load it once.
 global $RandomfandomConf;
