@@ -8,8 +8,7 @@ if(version<'0.0.9')
 
 $theme_css = 'css/style-randomfandom.css';
 $Wcms->addListener('menu', 'getMenuRandomfandom'); // in functions.php
-/* The below line breaks the admin panel after the 3.1.0 WonderCMS update. */
-/* $Wcms->addListener('settings', 'alterAdmin'); // in functions.php */
+$Wcms->addListener('settings', 'alterAdmin'); // in functions.php Was previously broken in 3.1.0 due to broken functions.php file.
 
 ?>
 <html lang="en">

@@ -39,3 +39,12 @@ Not Available Yet.
 1. Delete the "cache.json" and "database.js" files from your WonderCMS "data" folder.
 2. Delete the folder for this theme in the WonderCMS "themes" folder. Don't delete the whole "themes" folder itself though.
 3. Refresh your webpage.
+
+# How to fix your site's admin panel if the 3.1.0 WonderCMS update broke it.
+0. Access your files via your hosting file management panel, or via FTP.
+1. Go to your "data" folder.
+2. Open "database.js" for editing.
+3. Change the theme (probably on line 4) to "default"
+4. Save "database.js" and refresh your website page. You should be able to login and update the theme for my patches (if they're available).
+   Please note that my theme is a fork of the Adivvyo theme, but heavily modified. This means patches for broken updates may take longer to push.
+5. You may then reapply the theme.
