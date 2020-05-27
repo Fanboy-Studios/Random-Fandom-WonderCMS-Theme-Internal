@@ -119,7 +119,6 @@ function alterAdmin($args) {
   $args[0] = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $doc->saveHTML());
   return $args;
 }
-The previous code breaks the admin panel in the WonderCMS 3.1.0 update */
 
 # Hold the theme conf in a global so that we only load it once.
 global $RandomfandomConf;
