@@ -45,6 +45,9 @@ $Wcms->addListener('settings', 'alterAdmin'); // in functions.php Was previously
 
 	<!-- Random Fandom Head Code Snippets-->
 
+	<!-- Random Fandom YouTube verification -->
+	<meta name="google-site-verification" content="2QGPITqZpUYA8yIo7JS_mQNkC1EeHybjcom3JMxpKfI" />
+
 	<!-- Random Fandom Google Ads -->
 	<script data-ad-client="ca-pub-2812825932465377" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
